@@ -26,7 +26,7 @@ function imc () {
             classificacao = 'É muito arriscado ficar nesse peso, pode infartar hein?. Cuidado!!';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome} seu IMC é ${valorIMC} ${classificacao}`;
         
     }else {
         resultado.textContent = 'Preencha todos os campos!!!';
